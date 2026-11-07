@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_assign_outstanding" model="res.groups">
+        <field name="name">Access to Assign Outstanding Credit Debit Feature</field>
+        <field name="category_id" ref="base.module_category_hidden"/>
+        <field name="comment">Allows assigning outstanding payments and credits on invoices and bills. Existing accounting access is still required.</field>
+    </record>
+
+</odoo>
